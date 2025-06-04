@@ -5,7 +5,8 @@ from typing_extensions import Self
 
 from viam.proto.app.robot import ComponentConfig
 from viam.proto.common import ResourceName
-from viam.components.generic import Generic, Reconfigurable
+from viam.components.generic import Generic
+from viam.module.types import Reconfigurable
 from viam.resource.base import ResourceBase
 from viam.resource.types import Model, ModelFamily
 from viam.utils import ValueTypes
